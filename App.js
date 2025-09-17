@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TextInput, Button, FlatList } from "react-native";
-import { addTask, deleteTask, listenTasks } from "../services/taskService";
-import TaskItem from "../components/TaskItem";
+import { addTask, deleteTask, listenTasks } from "./Services/taskService";
+import TaskItem from "./components/TaskItem";
 
 export default function App() {
   const [text, setText] = useState("");
